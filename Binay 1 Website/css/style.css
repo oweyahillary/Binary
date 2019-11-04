@@ -12,7 +12,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
   font-size: medium !important;
 }
 
@@ -51,8 +51,8 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #80cc33;
-  color: #fff;
+  background: #3fb44a;
+  color: #3fb44a;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -125,22 +125,23 @@ h6 {
   background-color:#3fb44a;
   padding: 20px;
 }
-.social .social-links {
-  text-align: right;
-}
 .social .social-links a {
   padding: 4px 12px;
-  display: inline-block;
   line-height: 5px;
+  color: #FFFFFF;
+}
+.social #separetor:after {
+  content: "|";
+    position: absolute;
+    top: 16px;
+    margin-left: -10px;
+}
+#info{
   color: #FFFFFF;
 }
 
 .social .social-links a:hover {
   color: #1bb1dc;
-}
-
-.social .social-links a:first-child {
-  border-left: 0;
 }
 
 
@@ -248,13 +249,13 @@ h6 {
 }
 
 #about .about-content h2 {
-  color: #413e66;
+  color: #3fb44a;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
 #about .about-content h3 {
-  color: #696592;
+  color: #3fb44a;
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
@@ -282,7 +283,7 @@ h6 {
 
 #about .about-img img {
   width: 100%;
-  border: 8px solid #66cc00;
+  border: 8px solid #3fb44a;
   transition: .5s;
 }
 
@@ -300,7 +301,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #66cc00;
+  background-color: #3fb44a;
   transition: .5s;
 }
 
@@ -312,7 +313,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #66cc00;
+  background-color: #3fb44a;
   transition: .5s;
 }
 
@@ -321,7 +322,7 @@ h6 {
 
 #services {
   padding: 60px 0 40px 0;
-  background-color: #00ff40;
+  background-color: #3fb44a;
 }
 
 #services .box {
@@ -631,7 +632,7 @@ h6 {
 
 #testimonials {
   padding: 60px 0;
-  background-color: #00ff40;
+  background-color: #3fb44a;
 }
 
 #testimonials .section-header {
@@ -819,7 +820,7 @@ h6 {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #00ff40;
+  background: #3fb44a;
 }
 
 #footer .footer-top .footer-info {
