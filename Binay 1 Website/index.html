@@ -24,6 +24,10 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+  <!-- carousel css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -47,10 +51,10 @@
 
   <div class="ml-auto p-2">
     <div class="social-links">
-      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-      <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+      <a href="#" class="twitter"><i class="fa fa-twitter fa-xs"></i></a>
+      <a href="#" class="facebook"><i class="fa fa-facebook fa-xs"></i></a>
+      <a href="#" class="linkedin"><i class="fa fa-linkedin fa-xs"></i></a>
+      <a href="#" class="instagram"><i class="fa fa-instagram fa-xs"></i></a>
     </div>
   </div>
 </div>
@@ -60,7 +64,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <div class="container">
     <a class="navbar-brand" href="#">
-      <img src="img/logo.png" width="200" height="100" alt="">
+      <img src="img/logo.png" width="200" height="70" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -70,16 +74,7 @@
         <li class="nav-item"><a class="nav-link" href="#intro">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#consultations">Contact Us</a></li>
-        <!-- <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li> -->
+        <li class="nav-item"><a class="nav-link" href="#consultations">Contact Us</a></li> 
       </ul>
     </div>
   </div>
@@ -87,22 +82,61 @@
 <!--==========================
     Intro Section
 ============================-->
+
+
+
 <section id="intro" class="clearfix">
-  <div class="container d-flex h-100">
-    <div class="row justify-content-center align-self-center">
-      <div class="intro-info order-md-first text-center">
-        <h2 style="color: #FFFFFF">DELIVERING BUSINESS VALUE WITH PROFESSIONAL SIMPLICITY, THROUGH PROVEN TECHNICAL EXPERTISE</h2>
-        <div>
-          <a href="#about" class="btn-get-started scrollto" style="background-color: #80e619">Get Started</a>
+  <!-- Top content -->
+        <div class="top-content">
+          <div class="row no-gutters">
+            <div class="col">
+              <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" style="height: 700px;">
+                    <img src="img/handshake2.2.png" class="d-block w-100"  alt="img1">
+                <div class="carousel-caption">
+                  <h1 class="wow fadeInLeftBig">Carousel Template with Bootstrap 4</h1>
+                  <div class="description wow fadeInUp">
+                    <p>
+                      This is a free Carousel template made with the Bootstrap 4 framework.
+                      Check it out now. Download it, customize and use it as you like!
+                    </p>
+                  </div>
+                </div>
+                  </div>
+                  <div class="carousel-item" style="height: 700px;">
+                    <img src="img/slider.png" class="d-block w-100" alt="img2">
+                    <div class="carousel-caption">
+                  <h1 class="wow fadeInLeftBig">This is Slide 2 of our Carousel</h1>
+                  <div class="description wow fadeInUp">
+                    <p>
+                      You can download this free template on <a href="https://azmind.com" target="_blank">AZMIND</a>.
+                    </p>
+                  </div>
+                </div>
+                  </div>
+                  <div class="carousel-item" style="height: 700px;">
+                    <img src="img/slider2.png" class="d-block w-100" alt="img3">
+                    <div class="carousel-caption">
+                  <h1 class="wow fadeInLeftBig">This is Slide 3, the Last One</h1>
+                  <div class="description wow fadeInUp">
+                    <p>
+                      After you download it, you can customize and use it as you like. That's great!
+                    </p>
+                  </div>
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
 </section><!-- #intro -->
+
+
+
+
 <main id="main">
-  <div id="deco">
-    <img src="img/footer.png" alt="" style="height: 100%; width: 100%">
-  </div>
 <!--==========================
     About Us Section
 ============================-->
@@ -229,8 +263,8 @@
           </div>
         </div>
         <!-- Modal for Artificial Intelligence -->
-        <div class="modal fade" id="artificialIntelligence" tabindex="-1" role="dialog" aria-labelledby="artificialIntelligence" aria-hidden="true">
-          <div class="modal-dialog" role="document">
+        <div class="modal fade" id="artificialIntelligence" tabindex="-1" role="dialog" aria-labelledby="artificialIntelligence" aria-hidden="true" >
+          <div class="modal-dialog" role="document" >
             <div class="modal-content">
               <div class="modal-header">
                 <img src="img/ai.png" alt="" class="img-fluid">
@@ -254,7 +288,7 @@
         </div>
         <!-- Modal -->
         <div class="modal fade" id="beyondTraditionalERPProjects" tabindex="-1" role="dialog" aria-labelledby="beyondTraditionalERPProjects" aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog" role="document" style="background-image: url(img/tile.png);">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Beyond traditional ERP Projects</h5>
@@ -294,6 +328,7 @@
         </div>
       </div>
       <div class="col-lg-6">
+        <div id="curve">
         <div class="why-us-content">
           <p>
             Through consultative scoping sessions, we gather your Business automation requirements that can be enhanced through IT; and manage our Local and International Business Partners towards delivering World Class solutions for your business.
@@ -308,6 +343,7 @@
             “Delivering Business Value with Professional Simplicity through proven Technical Expertise."
           </p>
         </div>
+      </div>
       </div>
     </div>
   </div>
@@ -336,10 +372,12 @@
                             </div>
 
                             <div class="testimonial-item">
+                              <div id="image">
                                 <h3>Vice Chair - man of Regional FMCG Manufacturer</h3>
                                 <p>
                                     We pioneered Africa’s Largest SAP Business One Migration to HANA Platform with the help of Binary’s Leading Consultant.
                                 </p>
+                                </div>
                             </div>
 
                             <div class="testimonial-item">
@@ -471,62 +509,43 @@
   <!--==========================
       Footer
     ============================-->
-    <footer id="footer" class="section-bg">
-        <div class="footer-top">
-            <div class="container">
+    <div id="footer">
+    <div class="container" >
 
-                <div class="row">
 
-                    <div class="col-lg-6">
-
-                        <div class="row">
-
-                            <div class="col-sm-6">
-
-                                <div class="footer-links">
-                                    <h4>Contact Us</h4>
-                                    <p>
-                                        Senteu Plaza, Off Galana Rd<br><br>
-                                        Nairobi; Kenya<br>
-                                        P.O. BOX 52883 (00100)<br>
-                                        Nairobi - KENYA<br><br>
-                                        <strong>Phone:</strong> +254 787 990 220<br><br>
-                                        <strong>Email:</strong>info@binaryone.co.ke<br>
-                                    </p>
-                                </div>
-
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div class="footer-links">
-                                    <h4>Useful Links</h4>
-                                    <ul>
-                                        <li><a href="#intro">Home</a></li>
-                                        <li><a href="#about">About us</a></li>
-                                        <li><a href="#services">Services</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>
-                                        <li><a href="#team">Team</a></li>
-                                    </ul>
-                                </div>
-
-                                <div class="social-links">
-                                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                     </div>
-
-            </div>
+        <div class="d-flex justify-content-center">
+          <div class="p-2 bd-highlight"><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></div>
+          <div class="p-2 bd-highlight"><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></div>
+          <div class="p-2 bd-highlight"><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></div>
+          <div class="p-2 bd-highlight"><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></div>
         </div>
 
-        
-    </footer><!-- #footer -->
-    <div>
+        <div class="d-flex justify-content-center">
+          <h4>Useful Links</h4>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="p-2 bd-highlight"><a href="#intro">Home</a></div>
+          <div class="p-2 bd-highlight"><a href="#about">About us</a></div>
+          <div class="p-2 bd-highlight"><a href="#services">Services</a></div>
+          <div class="p-2 bd-highlight"><a href="#portfolio">Portfolio</a></div>
+          <div class="p-2 bd-highlight"><a href="#team">Team</a></div>
+        </div>
+
+      <div class="d-flex bd-highlight">
+          <div class="p-2 bd-highlight"><strong>Phone:</strong> +254 787 990 220</div>
+          <div class="p-2 bd-highlight"><strong>Email:</strong>info@binaryone.co.ke</div>
+          <div class="p-2 flex-grow-1 bd-highlight">
+            Senteu Plaza, Off Galana Rd 
+            Nairobi; Kenya 
+            P.O. BOX 52883 (00100) 
+            Nairobi - KENYA
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div id="copyright">
       <div class="container" >
         <div class="copyright">
           &copy; Copyright <strong style="color: green">Binary one solutions </strong>. All Rights Reserved
@@ -536,7 +555,7 @@
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
     <!-- Uncomment below i you want to use a preloader -->
-    <div id="preloader"></div>
+    <!-- <div id="preloader"></div> -->
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
@@ -550,6 +569,11 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/scripts.js"></script>
+
     <!-- Contact Form JavaScript File -->
     <script src="js/bootstrap-validate.js"></script>
 
