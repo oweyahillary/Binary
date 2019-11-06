@@ -92,7 +92,7 @@
             <div class="col">
               <div id="carousel-example" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active" style="height: 700px;">
+                  <div class="carousel-item active" style="height: 600px;">
                     <img src="img/handshake2.2.png" class="d-block w-100"  alt="img1">
                 <div class="carousel-caption">
                   <h1 class="wow fadeInLeftBig">Carousel Template with Bootstrap 4</h1>
@@ -104,7 +104,7 @@
                   </div>
                 </div>
                   </div>
-                  <div class="carousel-item" style="height: 700px;">
+                  <div class="carousel-item" style="height: 600px;">
                     <img src="img/slider.png" class="d-block w-100" alt="img2">
                     <div class="carousel-caption">
                   <h1 class="wow fadeInLeftBig">This is Slide 2 of our Carousel</h1>
@@ -115,7 +115,7 @@
                   </div>
                 </div>
                   </div>
-                  <div class="carousel-item" style="height: 700px;">
+                  <div class="carousel-item" style="height: 600px;">
                     <img src="img/slider2.png" class="d-block w-100" alt="img3">
                     <div class="carousel-caption">
                   <h1 class="wow fadeInLeftBig">This is Slide 3, the Last One</h1>
@@ -328,7 +328,7 @@
         </div>
       </div>
       <div class="col-lg-6">
-        <div id="curve">
+<!--         <div id="curve"> -->
         <div class="why-us-content">
           <p>
             Through consultative scoping sessions, we gather your Business automation requirements that can be enhanced through IT; and manage our Local and International Business Partners towards delivering World Class solutions for your business.
@@ -343,7 +343,7 @@
             “Delivering Business Value with Professional Simplicity through proven Technical Expertise."
           </p>
         </div>
-      </div>
+<!--       </div> -->
       </div>
     </div>
   </div>
@@ -450,7 +450,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="form_name">Names *</label>
-                                    <input id="firstname" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required>
+                                    <input id="name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required>
                                 </div>
                             </div>
                         </div>
@@ -458,7 +458,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="form_name">Phone Number *</label>
-                                    <input id="firstname" type="text" name="name" class="form-control" placeholder="Please enter your Phone Number*" required>
+                                    <input id="phone_number" type="text" name="name" class="form-control" placeholder="Please enter your Phone Number*" required>
                                 </div>
                             </div>
                         </div>
@@ -474,7 +474,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="form_need">Please specify your need *</label>
-                                    <select id="formneed" name="need" class="form-control" required>
+                                    <select id="formneed" name="need" class="form-control" placeholder="Please choose an option *" required >
                                         <option value=""></option>
                                         <option value="Digital Transformation Projects">Digital Transformation Projects</option>
                                         <option value="Managed IT Security & Outsourced IT Support">Managed IT Security & Outsourced IT Support</option>
@@ -584,8 +584,8 @@
 
         <!--Form Validation-->
     <script>
-        bootstrapValidate('#firstname','required:Please enter a valid name');
-        bootstrapValidate('#formlastname','required:Please enter a valid name');
+        bootstrapValidate('#name','required:Please enter a valid name');
+        bootstrapValidate('#phone_number','required:Please enter a valid name');
         bootstrapValidate('#formemail','email:Please enter a valid name');
         bootstrapValidate('#formneed','required:Please select an option');
         bootstrapValidate('#formmessage','required:Tell us what is in your mind');
